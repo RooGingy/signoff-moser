@@ -1,0 +1,11 @@
+spring:
+  config:
+    import: optional:file:.env[.properties],optional:file:../.env[.properties]
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI}
+  application:
+    name: ${SPRING_APPLICATION_NAME}
+
+server:
+  port: ${SERVER_PORT}
