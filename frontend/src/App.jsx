@@ -1,5 +1,5 @@
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
-import Login from './pages/Login'
+import Login from './pages/login/Login'
 import GroupList from './components/GroupList'
 
 export default function App() {
