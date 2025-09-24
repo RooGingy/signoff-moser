@@ -357,7 +357,11 @@ a.active { color: #4f46e5; }
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 16px;
-    align-items: start;
+    align-items: stretch;
+}
+
+.dash-main > * {
+    height: 100%;
 }
 
 .dash-panel {
